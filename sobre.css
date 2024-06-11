@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "metro";
+  src: url("../fonts/MetroPhotograph-DemoVersion-Regular.otf") format("opentype"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Verdana;
+  font-size: 16px;
+  background-color: #d8eff7; }
+
+.header {
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0 0 10px #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0; }
+  .header_nav {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+  .header_logo {
+    float: left; }
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip; }
+  img.header_nav {
+    float: right;
+    font: 20px "Teko"; }
+  img.header_nav ul li {
+    padding: 10px;
+    display: inline; }
+  img.header_nav ul li a {
+    color: #e8540a;
+    text-decoration: none;
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    list-style: none; }
+  img.header_nav ul {
+    list-style: none; }
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent; }
+
+.centro {
+  text-align: center; }
+
+h2 {
+  font: 20px "metro";
+  font-weight: bolder;
+  color: #e8540a; }
+
+p {
+  margin: 10px;
+  line-height: 25px; }
+
+/*# sourceMappingURL=sobre.css.map */

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Verdana;
+  font-size: 16px;
+  background-color: #d8eff7; }
+
+.header {
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0 0 10px #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0; }
+  .header_nav {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+  .header_logo {
+    float: left; }
+  .header_nav {
+    float: right;
+    font: 20px "Teko"; }
+    .header_nav ul {
+      list-style: none; }
+      .header_nav ul li {
+        padding: 10px;
+        display: inline; }
+        .header_nav ul li a {
+          color: #e8540a;
+          text-decoration: none;
+          font-family: "Teko", Arial, Helvetica, sans-serif;
+          list-style: none; }
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+  margin: 150px auto;
+  width: 1000px;
+  text-align: center; }
+
+h2 {
+  margin: 10px;
+  font: 24px;
+  color: #e8540a; }
+
+iframe {
+  padding-top: 50px;
+  border: 0;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=jogo.css.map */

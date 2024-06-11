@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Verdana;
+  font-size: 16px;
+  background-color: #d8eff7; }
+
+.header {
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0 0 10px #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0; }
+
+.header_nav {
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+
+.header_logo {
+  float: left; }
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip; }
+
+.header .header_nav {
+  float: right;
+  font: 20px "Teko"; }
+
+.header .header_nav ul li {
+  padding: 10px;
+  display: inline; }
+
+.header .header_nav ul li a {
+  color: #e8540a;
+  text-decoration: none;
+  font-family: "Teko", Arial, Helvetica, sans-serif;
+  list-style: none; }
+
+.header .header_nav ul {
+  list-style: none; }
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent; }
+
+.centro {
+  text-align: center; }
+
+#contato {
+  background-color: #F1F1F1;
+  margin-top: 150px;
+  width: 700px;
+  margin-left: 440px;
+  padding: 20px; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block; }
+
+button {
+  background-color: rgba(164, 3, 251, 0.755);
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=contato.css.map */
