@@ -1,22 +1,23 @@
+@import url("htps://fonts.googleapis.com/css2?familly=Outfit:wght@300&display=swap");
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-  font: 16px Tahoma, Verdana;
+  height: 100vh;
 }
 
 h1 {
-  font: 24px Montserrat, Tahoma;
+  font: 24px "Outfit", sans-serif;
 }
 
-.header {
-  background: #222;
-}
-
-.footer {
-  background: #222;
+nav.menu-lateral {
+  width: 300px;
+  height: 100%;
+  background-color: #363776;
 }
 
 /*# sourceMappingURL=style.css.map */
