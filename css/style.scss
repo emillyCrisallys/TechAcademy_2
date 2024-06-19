@@ -2,7 +2,8 @@
 $primary:linear-gradient(rgb(9, 9, 9),#181735);
 $secondary:  linear-gradient(to right, rgba(255,0,0,0), rgb(57, 89, 214));
 $clear:rgb(255, 255, 255);
-$hover:rgb(71, 170, 232);
+$hover:linear-gradient( to right, rgb(12, 15, 22) , rgb(239, 8, 251) 100%);
+$hover1:rgb(239, 8, 251);
 $box-sizing:border-box;
 $font1:'Outfit', sans-serif;
 $font2:Tahoma, Verdana;
@@ -28,7 +29,7 @@ nav.menu-lateral{
     height:$perc;
     background-image:  $secondary;
     padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 $hover;
+    box-shadow: 3px 0 0 $hover1;
 
     position: fixed;
     top: 0 ;
@@ -69,7 +70,7 @@ ul{
 }
 ul{
     li.item-menu:hover{
-        background:$hover ;
+        background-image:$hover ;
 
     }
 
@@ -77,7 +78,7 @@ ul{
 
 ul{
     li.ativo{
-        background: $hover;
+        background-image: $hover;
 
     }
 

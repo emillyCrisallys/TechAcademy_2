@@ -16,7 +16,7 @@ nav.menu-lateral {
   height: 100%;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #3959d6);
   padding: 40px 0 40px 1%;
-  box-shadow: 3px 0 0 #47aae8;
+  box-shadow: 3px 0 0 #ef08fb;
   position: fixed;
   top: 0;
   left: 0;
@@ -55,11 +55,11 @@ ul li.item-menu {
 }
 
 ul li.item-menu:hover {
-  background: #47aae8;
+  background-image: linear-gradient(to right, #0c0f16, #ef08fb 100%);
 }
 
 ul li.ativo {
-  background: #47aae8;
+  background-image: linear-gradient(to right, #0c0f16, #ef08fb 100%);
 }
 
 ul li.item-menu a {
