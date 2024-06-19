@@ -1,13 +1,14 @@
 @import url('htps://fonts.googleapis.com/css2?familly=Outfit:wght@300&display=swap');
-$primary:#363776;
-$secondary:#181735;
-$clear:#f00;
+$primary:linear-gradient(rgb(9, 9, 9),#181735);
+$secondary:  linear-gradient(to right, rgba(255,0,0,0), rgb(57, 89, 214));
+$clear:rgb(255, 255, 255);
+$hover:rgb(71, 170, 232);
 $box-sizing:border-box;
 $font1:'Outfit', sans-serif;
 $font2:Tahoma, Verdana;
 $width: 300px;
 $height:100vh;
-$heightPerc:100%;
+$perc:100%;
 
 *{
     margin: 0;
@@ -19,14 +20,100 @@ $heightPerc:100%;
 
 body{
     height: $height;
-}
-
-h1{
-    font: 24px $font1;
+    background-image: $primary;
 }
 
 nav.menu-lateral{
-    width:$width;
-    height:$heightPerc;
-    background-color: $primary;
+    width:60px;
+    height:$perc;
+    background-image:  $secondary;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 $hover;
+
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    overflow: hidden;
+}
+
+nav.menu-lateral:hover{/*faz expandir quando passa o mouse lista*/
+    width: $width ;
+}
+
+.btn-exandir{
+    width: $perc;
+    padding-left: 10px;
+}
+.btn-expandir{/*icon lista*/ 
+    i{
+      color: $clear;
+      font-size: 30px;
+      cursor: pointer;
+      padding: 20px 4%;
+      margin-left: 10px;
+    }
+}
+
+ul{
+    height: $perc;
+    list-style-type: none;
+
+}
+
+ul{
+    li.item-menu{
+        transition: .1s;
+
+    }
+}
+ul{
+    li.item-menu:hover{
+        background:$hover ;
+
+    }
+
+}
+
+ul{
+    li.item-menu{
+
+            a{
+                color: $clear;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 20px 4%;
+                display: flex;
+                margin-bottom: 20px;
+                line-height: 40px;
+                margin-top: 50px;
+               
+                
+            }
+        
+        
+    }
+}
+
+ul{
+    li.item-menu{
+            a .txt-link{
+               margin-left: 40px;
+            }
+        
+        
+    }
+}
+
+ul{
+    li.item-menu{
+            a .icon{
+                i{
+                   font-size: 30px; 
+                   margin-left: 10px;
+                }
+               
+            }
+        
+        
+    }
 }

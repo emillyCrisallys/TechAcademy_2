@@ -8,16 +8,73 @@
 
 body {
   height: 100vh;
-}
-
-h1 {
-  font: 24px "Outfit", sans-serif;
+  background-image: linear-gradient(#090909, #181735);
 }
 
 nav.menu-lateral {
-  width: 300px;
+  width: 60px;
   height: 100%;
-  background-color: #363776;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #3959d6);
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 #47aae8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+nav.menu-lateral:hover {
+  /*faz expandir quando passa o mouse lista*/
+  width: 300px;
+}
+
+.btn-exandir {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn-expandir {
+  /*icon lista*/
+}
+.btn-expandir i {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 20px 4%;
+  margin-left: 10px;
+}
+
+ul {
+  height: 100%;
+  list-style-type: none;
+}
+
+ul li.item-menu {
+  transition: .1s;
+}
+
+ul li.item-menu:hover {
+  background: #47aae8;
+}
+
+ul li.item-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+  margin-top: 50px;
+}
+
+ul li.item-menu a .txt-link {
+  margin-left: 40px;
+}
+
+ul li.item-menu a .icon i {
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
