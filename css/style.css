@@ -12,7 +12,7 @@ body {
 }
 
 nav.menu-lateral {
-  width: 60px;
+  width: 80px;
   height: 100%;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #3959d6);
   padding: 40px 0 40px 1%;
@@ -21,6 +21,7 @@ nav.menu-lateral {
   top: 0;
   left: 0;
   overflow: hidden;
+  transition: .2s;
 }
 
 nav.menu-lateral:hover {
@@ -54,6 +55,10 @@ ul li.item-menu {
 }
 
 ul li.item-menu:hover {
+  background: #47aae8;
+}
+
+ul li.ativo {
   background: #47aae8;
 }
 
