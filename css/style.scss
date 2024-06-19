@@ -35,10 +35,10 @@ nav.menu-lateral{
     top: 0 ;
     left: 0;
     overflow: hidden;
-    transition: .2s;
+    transition: .5s;
 }
 
-nav.menu-lateral:hover{/*faz expandir quando passa o mouse lista*/
+nav.menu-lateral.expandir{/*faz expandir quando passa o mouse lista*/
     width: $width ;
 }
 
@@ -64,7 +64,7 @@ ul{
 
 ul{
     li.item-menu{
-        transition: .1s;
+        transition: .2s;
 
     }
 }
