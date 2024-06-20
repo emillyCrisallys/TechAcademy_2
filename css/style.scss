@@ -56,6 +56,7 @@ nav.menu-lateral.expandir{/*faz expandir quando passa o mouse lista*/
     }
 }
 
+
 ul{
     height: $perc;
     list-style-type: none;
@@ -97,7 +98,7 @@ ul{
                 display: flex;
                 margin-bottom: 20px;
                 line-height: 40px;
-                margin-top: 50px;
+                margin-top: 40px;
                
                 
             }
@@ -106,14 +107,26 @@ ul{
     }
 }
 
+
+
+
 ul{
     li.item-menu{
             a .txt-link{
-               margin-left: 40px;
+               margin-left: 70px;
+               transition: .5s;
+               opacity: 0;
             }
         
         
     }
+}
+
+
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
 }
 
 ul{

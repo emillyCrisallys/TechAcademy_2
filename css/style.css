@@ -70,11 +70,18 @@ ul li.item-menu a {
   display: flex;
   margin-bottom: 20px;
   line-height: 40px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 ul li.item-menu a .txt-link {
+  margin-left: 70px;
+  transition: .5s;
+  opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link {
   margin-left: 40px;
+  opacity: 1;
 }
 
 ul li.item-menu a .icon i {
